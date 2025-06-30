@@ -221,6 +221,8 @@
   font-size: var(--button-font-size);
   font-weight: var(--card-font-weight);
   inline-size: 234px;
+  text-transform: uppercase;
+  line-height: 150%;
 }
 .dialog {
   inline-size: 353px;
@@ -233,10 +235,6 @@
   margin-block-start: 30px;
   margin-inline-start: 12px;
   margin-block-end: 30px;
-}
-.dialog-text {
-  text-transform: uppercase;
-  line-height: 150%;
 }
 .dialog-content {
   inline-size: 293px;
