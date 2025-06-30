@@ -9,3 +9,25 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+.like-icon.is-liked{
+    animation: scale-like-icon 0.3s ease-in 0.1s;
+}
+@keyframes scale-like-icon {
+    from{
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.25);
+    }
+}
+.like-icon.is-liked .sparks {
+    animation: flash-of-sparks 0.3s ease-in 0.3s ;
+}
+@keyframes flash-of-sparks {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
