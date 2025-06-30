@@ -216,6 +216,9 @@
   fill: var(--svg-like-color-animation);
   transition: fill 0.3s ease 0.06s;
 }
+.like-icon:not(.is-liked) .contour {
+  transition: fill 0.1s linear;
+}
 .dialog-text {
   font-family: var(--accent-font);
   font-size: var(--button-font-size);
