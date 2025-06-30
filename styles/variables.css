@@ -1,51 +1,48 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    /* Шрифты*/
-    --main-font: "Inter-Variable";
-    --accent-font: "PressStart2P";
-    /* толщина шритов*/
-    --card-font-weight: 400;
-    --title-font-weight: 700;
-    /*размер шрифтов*/
-    --title-font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
-    --header-description-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
-    --main-font-size: 18px;
-    --button-font-size: 14px;
-    --watermark-size: 14px;
+  /* Шрифты*/
+  --main-font: "Inter-Variable";
+  --accent-font: "PressStart2P";
+  /* толщина шритов*/
+  --card-font-weight: 400;
+  --title-font-weight: 700;
+  /*размер шрифтов*/
+  --title-font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
+  --header-description-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
+  --main-font-size: 18px;
+  --button-font-size: 14px;
+  --watermark-size: 14px;
 
-    /*размеры */
-    --section-width: clamp(375px, 48.61%, 700px);
-    --logo-width: clamp(343px, 91.46%, 455px);
-    --title-width: clamp(210px, 56%, 345px);
-    --header-inline-size: clamp(375px, 48.6vw, 700px);
-    --image-size: clamp(373px, 48.35vw, 696px);
-    --header-block-size: clamp(323px, 50%, 364px);
-    --header-padding: 128px;
-    --card-content-text-margin: 28px 24px 25px 25px;
-    --cartd-text-size: clamp(321px, 206.56px + 30.52vw, 646px);
-    /*отступы*/
-    /* задний фон*/
-      --background-image: 
+  /*размеры */
+  --section-width: clamp(375px, 48.61%, 700px);
+  --logo-width: clamp(343px, 91.46%, 455px);
+  --title-width: clamp(210px, 56%, 345px);
+  --header-inline-size: clamp(375px, 48.6vw, 700px);
+  --image-size: clamp(373px, 48.35vw, 696px);
+  --header-block-size: clamp(323px, 50%, 364px);
+  --cartd-text-size: clamp(321px, 206.56px + 30.52vw, 646px);
+  /*отступы*/
+  --header-padding: 128px;
+  --header-padding-mobile: 120px;
+  --card-content-text-margin: 28px 24px 25px 25px;
+  --card-content-text-margin-mobile: 26px 25px 25px 25px;
+
+  /* задний фон*/
+  --background-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      rgb(211 211 211 / 0) 2px 4px
+    ),
     repeating-linear-gradient(
-        to right,
-         #d3d3d3 0 2px,
-         rgb(211 211 211 / 0) 2px 4px
-        ),
-        repeating-linear-gradient(
-          to bottom,
-         #d3d3d3 0 2px,
-        rgb(211 211 211 / 0) 2px 4px
-        ),
-        linear-gradient(
-         #e7e7e7 0.01%,
-         #1a1a1a
-        );
-    /* цвета*/
-    --text-stroke-color: #FFFFFF;
-    --svg-like-color-contor: #000000;
-    --svg-like-color-animation: #FF0000;
-    /* рамка*/
-    --border: 2px solid #000000;
-     
-     
+      to bottom,
+      #d3d3d3 0 2px,
+      rgb(211 211 211 / 0) 2px 4px
+    ),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  /* цвета*/
+  --text-stroke-color: #ffffff;
+  --svg-like-color-contor: #000000;
+  --svg-like-color-animation: #ff0000;
+  /* рамка*/
+  --border: 2px solid #000000;
 }
