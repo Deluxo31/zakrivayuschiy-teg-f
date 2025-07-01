@@ -51,10 +51,15 @@
   justify-self: center;
 }
 .card {
-  position: relative;
+  /*/position: relative;*/
   border: var(--border);
   background-color: #ffffff;
   inline-size: var(--header-inline-size);
+}
+.conteiner-image {
+  display: block;
+  position: relative;
+  margin: 0;
 }
 .car-image {
   display: block;
@@ -84,8 +89,8 @@
   text-shadow: 0 0 1px var(--text-stroke-color);
   font-size: var(--watermark-size);
   opacity: 0.5;
-  top: 58px;
-  right: 24px;
+  top: 25px;
+  right: 25px;
   z-index: 1;
 }
 .button {
@@ -294,12 +299,10 @@
     padding-block: var(--header-padding-mobile);
   }
   .watermark {
-    top: 77px;
+    top: 24px;
     right: 11px;
   }
-  .wt-any {
-    inset-block-start: 56px;
-  }
+
   .card-content-text {
     margin: var(--card-content-text-margin-mobile);
   }
